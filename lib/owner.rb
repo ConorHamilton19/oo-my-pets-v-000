@@ -32,4 +32,14 @@ class Owner
     @pets[:fishes] << new_fish
   end
   
+   def buy_cat(name)
+    new_cat = Cat.new(name)
+    @pets[:cat] << new_cat
+  end
+  
+   def buy_fish(name)
+    new_fish = Fish.new(name)
+    @pets[:fishes] << new_fish
+  end
+  
 end 
