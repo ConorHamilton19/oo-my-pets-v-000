@@ -55,6 +55,7 @@ class Owner
   end
   
   def sell_pets
+    @pets.collect {|type, pet| pet.clear}
   end
   
 end 
