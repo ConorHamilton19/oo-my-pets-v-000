@@ -7,7 +7,7 @@ class Dog
     @mood = "nervous"
   end 
   
-  def mood = (mood)
+  def mood= 
     @mood = (mood)
   end
 end
