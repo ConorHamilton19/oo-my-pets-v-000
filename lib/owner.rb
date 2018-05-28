@@ -56,7 +56,7 @@ class Owner
   
   def sell_pets
     @pets.collect do |type, pet| 
-      pet.mood = "nervous"
+      pet.collect{|a| a.mood = "nervous"}
       pet.clear
     end
   end
